@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tabela</title>
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+   <h2>Tabela</h2>
+   <thead>
+    <table  border="1"> 
+        <tr>
+            <!-- (colspan) serve para mesclar colunas -->
+            <th colspan="4">Poupança</th>
+        </tr>
+
+        <tr>
+        <td>ANO</td>
+        <td>MES</td>
+        <td>VALOR</td>
+        <td>TOTAL</td>
+    </tr>
+   </thead>
+    <tbody>
+        <tr>
+            <td>2022</td>
+            <td>JAN</td>
+            <td>150</td>
+            <td rowspan="4">1200</td>
+            <!-- (rowspan) serve para mesclar uma ou mais linhas -->
+        </tr>
+        <tr>
+            <td>2022</td>
+            <td>FEV</td>
+            <td>200</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>MAR</td>
+            <td>500</td>
+        </tr>
+        <tr>
+            <td>2023</td>
+            <td>ABR</td>
+            <td>350</td>
+        </tr>
+    
+    </tbody>
+</table>
+</body>
+
+</html>

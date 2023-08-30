@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Formulário</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Informações Pessoais</legend>
+        <h2>Cadastro de Aluno</h2>
+        <form action="mailto:biankasantos2701@gmail.com" method="">
+            <label for="cNome"><strong>Nome:</strong></label><br>
+            &nbsp; <input type="text" id="cNome">
+            <br><br>
+            <!-- &nbsp ele da um espaço para vc  -->
+            <label for="sSobrenome"><strong>Sobrenome:</strong></label><br>
+            &nbsp; <input type="text" id="sSobrenome">
+            <br><br>
+            <!-- placeholder= ele estabiliza o texto alinhando ele no meio  -->
+            <label for="eE-meil"><strong>E-meil:</strong></label> <br>
+            &nbsp; <input type="email" id="eE-meil" placeholder="Exemolo03@gmail.com" style="text-align: center;">
+            <br><br>
+
+            <label for="sSenha"><strong>Senha:</strong></label><br>
+            &nbsp; <input type="password" id="sSenha" required>
+            <br><br>
+
+            <h3>Qual curso estou matriculado</h3>
+            <input type="radio" name="curso" id="op1">
+            <label for="op1">Gestão ERP</label>
+            <br><br>
+
+            <input type="radio" name="curso" id="op2">
+            <label for="op2">Desenvolvimento Web</label>
+            <br><br>
+
+            <input type="radio" name="curso" id="op3">
+            <label for="op3">Suporte TI</label>
+            <br><br>
+
+            <input type="radio" name="curso" id="op4">
+            <label for="op4">Microsoft Office</label>
+
+            <br><br>
+            <h3>Qual o seu meio de tranporte ?</h3>
+            <input type="checkbox" id="tranporte" name="tranporte">
+            <label for="transporte">cavalo</label>
+            <br><br>
+
+            <input type="checkbox" id="tranporte2" name="tranporte2">
+            <label for="transporte">as pernas</label>
+            <br><br>
+
+            <input type="checkbox" id="tranporte3" name="tranporte3">
+            <label for="transporte">onibus</label>
+            <br><br>
+
+            <input type="checkbox" id="tranporte4" name="tranporte4">
+            <label for="transporte">carro</label>
+
+            <br><br>
+
+            <h3>Qual cor você se autodeclara</h3>
+            <input type="radio" name="cor" id="cor">
+            <label for="cor">Branco</label>
+            <br><br>
+            <input type="radio" name="cor" id="cor">
+            <label for="cor">Pardo</label>
+            <br><br>
+            <input type="radio" name="cor" id="cor">
+            <label for="cor">Preto</label>
+            <br><br>
+            <input type="radio" name="cor" id="cor">
+            <label for="cor">Amarelo</label>
+            <br><br>
+            <input type="radio" name="cor" id="cor">
+            <label for="cor">Indigna</label>
+            <br><br>
+
+            <h3>Qual cursos você tem interesse?</h3>
+            <input type="checkbox" id="curso" name="curso">
+            <label for="curso">Desing</label>
+            <br><br>
+
+            <input type="checkbox" id="curso" name="curso">
+            <label for="curso">Microsoft Office</label>
+            <br><br>
+
+            <input type="checkbox" id="curso" name="curso">
+            <label for="curso">Informatica</label>
+            <br><br>
+
+            <input type="checkbox" id="curso" name="curso">
+            <label for="curso">Suporte em TI</label>
+
+            <br><br>
+            <br><br>
+
+            <fieldset>
+                <legend>Demais Informações</legend>
+                <h3>Qual sua cor favorita?</h3>
+
+
+                <label for="cor favorita">Cor favorita</label>
+                <select name="Azul" id="Opção">Opção
+
+                    <option value="desabilitado" selected disabled>Opção</option>
+
+                    <option value="Azul">Azul</option>
+                    <option value="Amarelo">Amarelo</option>
+                    <option value="Preto">Preto</option>
+                    <option value="Roxo">Roxo</option>
+                </select>
+
+                <label for="cCid">Cidades</label>
+                <input type="text" name="cCid" id="cCid" list="cidades" autocomplete="on">
+                <datalist id="cidades">
+                    <option value="São Paulo"></option>
+                    <option value="Pinhalzinho"></option>
+                    <option value="Fortaleza"></option>
+                    <option value="Barueri"></option>
+                    <option value="Osasco"></option>
+                </datalist>
+                <br><br>
+
+                <label for="textArea"> <strong>Sua Sugestão aqui:</strong></label><br>
+                <textarea name="Sua Sugestão" id="textArea" cols="40" rows="10" placeholder="digite aqui..."
+                    maxlength="100"></textarea>
+
+                <br><br>
+        </form>
+        <input type="submit" name="Enviar" value="Enviar">
+</body>
+
+</html>
